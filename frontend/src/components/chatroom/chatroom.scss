@@ -1,0 +1,9 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.chatroom-root.bp3-dark {
+  background-color: $dark-gray4;
+}
+
+.chatroom-root:not(bp3-dark) {
+  background-color: $light-gray5;
+}
